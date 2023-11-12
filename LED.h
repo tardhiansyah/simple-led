@@ -8,9 +8,16 @@ class LED
   public:
     LED(byte pin);
 
+    // Set the LED Blink speed to desired value
     void setBlinkInterval(uint32_t interval);
+
+    // Blink the LED
     void blink();
+
+    // Turn the LED on
     void on();
+
+    // Turn the LED off
     void off();
 
   private:
